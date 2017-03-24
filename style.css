@@ -1,0 +1,175 @@
+/*To do the half scroll:   https://benfrain.com/independent-scrolling-panels-body-scroll-using-just-css/*/
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    /*background-color: rgb(106, 191, 238);*/
+    background-image: url("IMG/ubg1-1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+        /*This just stops me getting horizontal scrolling if anything overflows the width*/
+    overflow-x: hidden;
+}
+
+h1{
+    text-align: center;
+}
+
+.trans{
+    background-color: rgba(254, 254, 254, 0.5);
+    border: 2px solid white;
+}
+
+
+
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+    /*Added */
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+
+.top-title{
+    width: 898px;
+    height: 111px;
+}
+
+.side-img-top{
+    width: 100px ;
+    height: 100px ;
+}
+
+/*------ Middle ---------*/
+.middle{
+    display: flex;
+    margin-top: 15px;
+
+
+    /*Added*/
+    overflow: hidden;
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    backface-visibility: hidden;
+    will-change: overflow;
+}
+
+
+    /*Hiding Scroll-Bars*/
+.mid-sides::-webkit-scrollbar,
+.mid-c::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+.game-t{
+    background-color: rgb(25, 46, 185);
+    margin-bottom: 10px;
+    padding: 7px;
+    text-align: center;
+}
+
+.game{
+    background-color: rgb(120, 182, 238);
+    margin: 0 0 5px 0;
+    padding: 7px;
+    text-align: center;
+}
+.game:hover{
+    background-color: rgb(53, 131, 235);
+}
+
+
+
+.mid-c{
+
+    /*Add*/
+    overflow: auto;
+    height: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+    margin-bottom: 0px;
+}
+
+.mid-sides{
+    width: 50vw;
+    padding: 20px;
+    /*Add*/
+    overflow: auto;
+    height: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+    margin-bottom: 0px;
+}
+
+.hotel{
+    width: 560px;
+    height: 315px;
+    margin:0px auto;
+    display: block;
+}
+
+.dcrew{
+    margin:0px auto;
+    display: block;
+}
+
+.main-oct{
+    width: 468px;
+    height: 585px;
+    margin:0px auto;
+    display: block;
+}
+
+.ship{
+    /*width: 511px;*/
+    /*height: 225px;*/
+    margin:0px auto;
+    display: block;
+}
+
+.vid{
+    margin:0px auto;
+    display: block;
+    width: 560px;
+    height: 315px;
+}
+
+.article{
+    margin: 0px 15px 15px 15px;
+}
+
+
+/*-------- Bottom -------*/
+.bottom{
+    display: flex;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+
+.rifle{
+    width: 50px;
+    height: 50px;
+    margin: 0 5px 0 15px;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    margin: 7px 2px 0 2px;
+}
+
+.name{
+    font-size: 20px;
+    margin: 14px 1px 0 1px;
+}
