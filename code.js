@@ -115,3 +115,8 @@ var octoTime = {
     }
 
 }
+
+
+function rel(){
+    location.reload();
+}

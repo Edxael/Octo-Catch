@@ -78,7 +78,7 @@ h1{
  /*---------- Left Side Colum ----------*/
 
  .mid-sides{
-     padding: 15px 5px 15px 7px;
+     padding: 15px 25px 15px 25px;
      width: 75%;
      /*padding: 20px;*/
      /*Add*/
@@ -135,6 +135,16 @@ th{
 
 .h3-l{
     text-align: center;
+    margin: 30px auto 0px auto;
+}
+
+.button2{
+    width: 100px;
+    height: 25px;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px #888888;
+    margin: 0px auto 35px auto;
+    display: block;
 }
 
 
