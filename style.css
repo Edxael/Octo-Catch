@@ -18,9 +18,14 @@ h1{
     text-align: center;
 }
 
+/*p{
+    margin: 0 5px 0 5px;
+}*/
+
 .trans{
     background-color: rgba(254, 254, 254, 0.5);
     border: 2px solid white;
+    padding: 0 10px 5px 25px;
 }
 
 
@@ -70,6 +75,52 @@ h1{
 }
 
 
+ /*---------- Left Side Colum ----------*/
+
+ .mid-sides{
+     padding: 15px 5px 15px 7px;
+     width: 75%;
+     /*padding: 20px;*/
+     /*Add*/
+     overflow: auto;
+     height: auto;
+     -webkit-overflow-scrolling: touch;
+     -ms-overflow-style: none;
+     margin-bottom: 0px;
+     /*margin-right: 5px;*/
+ }
+
+.button1{
+    margin:7px auto;
+    display:block;
+    width: 200px;
+}
+
+.divingTime{
+    text-align: center;
+}
+
+.table1{
+    width: 250px;
+    text-align: center;
+}
+th{
+    background-color: rgb(251, 245, 95);
+}
+
+.left-colum-img{
+    margin: 0px auto;
+    display: block;
+}
+
+.h3-l{
+    text-align: center;
+}
+
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+
+
 
 .game-t{
     background-color: rgb(25, 46, 185);
@@ -83,6 +134,7 @@ h1{
     margin: 0 0 5px 0;
     padding: 7px;
     text-align: center;
+    font-weight: bolder;
 }
 .game:hover{
     background-color: rgb(53, 131, 235);
@@ -97,19 +149,11 @@ h1{
     height: auto;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: none;
-    margin-bottom: 0px;
+    margin-bottom: -15px;
+    margin-right: -15px;
 }
 
-.mid-sides{
-    width: 50vw;
-    padding: 20px;
-    /*Add*/
-    overflow: auto;
-    height: auto;
-    -webkit-overflow-scrolling: touch;
-    -ms-overflow-style: none;
-    margin-bottom: 0px;
-}
+
 
 .hotel{
     width: 560px;
