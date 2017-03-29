@@ -3,15 +3,15 @@ console.log("Octo 3 \n ");
 
 
 
-function dive(license, morningCatch){
+function dive(lic, mCat){
 
     var oxyTank = 5;
-    var totalCatch = morningCatch;
+    var totalCatch = mCat;
 
     return function (){
         oxyTank -= 1;
-        totalCatch += license;
-        return [license, morningCatch, oxyTank, totalCatch];
+        totalCatch += lic;
+        return [lic, mCat, oxyTank, totalCatch];
     }
 }
 
@@ -57,6 +57,7 @@ var octoTime = {
 
     under: function(){
         console.log("Dive-Down:");
+        // myTimer();
 
 
             // Abby Date

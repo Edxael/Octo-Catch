@@ -34,9 +34,8 @@
         <div class="mid-l mid-sides trans">
 
             <div class="game">Divers Data</div>
-            <!-- <div class="game">Game 2</div> -->
-            <button type="button" class="button1" onclick="hour()">New Dive</button>
-            <div class="divingTime"> Diving Time </div>
+            <button type="button" class="button1" onclick="octoTime.startTime()">Click for New Dive</button>
+            <div class="divingTime" id="div-timer"> Diving Time </div>
             <br>
             <table border="2" class="table1">
                 <tr>
@@ -48,54 +47,58 @@
                 </tr>
                 <tr>
                     <th>Diving</th>
-                    <td><input type="checkbox" class="ckbx" id="b-abby"></td>
-                    <td><input type="checkbox" class="ckbx" id="b-alex"></td>
-                    <td><input type="checkbox" class="ckbx" id="b-dave"></td>
-                    <td><input type="checkbox" class="ckbx" id="b-jack"></td>
+                    <td><input type="checkbox" class="ckbx" id="ck-abby"></td>
+                    <td><input type="checkbox" class="ckbx" id="ck-alex"></td>
+                    <td><input type="checkbox" class="ckbx" id="ck-dave"></td>
+                    <td><input type="checkbox" class="ckbx" id="ck-jack"></td>
                 </tr>
                 <tr>
                     <th>License</th>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td id="li-abby"></td>
+                    <td id="li-alex"></td>
+                    <td id="li-dave"></td>
+                    <td id="li-jack"></td>
                 </tr>
                 <tr>
                     <th>Morning</th>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td id="mo-abby"></td>
+                    <td id="mo-alex"></td>
+                    <td id="mo-dave"></td>
+                    <td id="mo-jack"></td>
                 </tr>
                 <tr>
                     <th>Oxy-Tanks</th>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td id="ox-abby"></td>
+                    <td id="ox-alex"></td>
+                    <td id="ox-dave"></td>
+                    <td id="ox-jack"></td>
                 </tr>
                 <tr>
                     <th>Totals</th>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td id="to-abby"></td>
+                    <td id="to-alex"></td>
+                    <td id="to-dave"></td>
+                    <td id="to-jack"></td>
                 </tr>
 
             </table>
 
+
+            <p class="p-center">In this example 1sec = 10 minutes.</p>
             <br>
             <div><img class="side-img-top left-colum-img" src="IMG/octo3.png" alt="y la foto??"></div>
 
             <h3 class="h3-l">Table Explanation</h3>
+
             <ul>
                 <li>Diving: check if person goes diving.</li>
                 <li>License: Catchs Allowed x dive.</li>
                 <li>Moring: Catch of the morning.</li>
                 <li>oxyTank: Oxygen Tanks Left</li>
                 <li>Total: Total Octopus Catch.</li>
-                <li></li>
             </ul>
+
+
 
             <br>
 
@@ -150,7 +153,7 @@ the mediation/drugs.</p>
                 <img class="dcrew" src="IMG/dcrew.jpg" alt="Y la crew??">
                 <p>After you purchase you license, you will be guided and assist by our professional scuba divers in the best techniques to caths the fast moving octopus, while stayin safe. </p>
                 <p>Remeber this is a life time experience not a life end experience, so dive safe and follow the indications of the personel in charge. </p>
-                <p>Remember you have you will have 5 Dives of 10 minute each, you will be guided and asisted by the instructor divers, during this dives remember the following intructions:</p>
+                <p>Remember you have you will have 5 Dives of 60 minute each, you will be guided and asisted by the instructor divers, during this dives remember the following intructions:</p>
                 <ol>
                     <li>Never hold your breath</li>
                     <li>Practice safe ascents</li>
